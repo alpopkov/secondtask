@@ -1,0 +1,158 @@
+body {
+	margin: 0;
+	padding: 0;	
+	font-family: arial;
+}
+a {
+	text-decoration: none;
+	color: #7e7e7e;
+}
+div, a, p, img, button, form{
+	box-sizing: border-box;
+}
+ul, li{
+    display: block;
+    padding: 0;
+	margin: 0;
+}
+.header {	
+	color: 5c5c5c;	
+}
+.menu {
+	height: 30px;
+	align-items: center;
+    display: flex; 
+    border-bottom: 3px solid #cccccc;   
+}
+
+.menu li {
+	display: flex;	
+	font-size: 14px;
+	margin-left: 15px;
+}
+.main {
+	display: flex;
+	margin-left: 30px;
+}
+.main p {
+    color: #7e7e7e;
+}
+.article1 {
+	margin-left: 10px;
+	margin-top: 40px;
+}
+#user {
+	width: 300px:;
+}
+.section1 input {
+	width: 335px;
+	height: 27px;
+	color: #3298da;
+	border: 2px solid #3298da;		
+}
+.section1 p {
+	line-height: 0.9em;
+}
+select {
+	width: 150px;
+	height: 25px;
+	color: #7e7e7e;		
+}
+.box {
+	display: flex;
+}
+.calendar {	
+	width: 170px;
+	height: 158px;
+	border: 3px solid #cccccc;
+	box-sizing: border-box;
+	margin: 0;
+} 
+.month {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 28px;
+	background-color: #e5e5e5;	
+	align-items: center;			
+}
+
+.prev {
+	color: #4b4b4b;
+	margin-left: 2px;
+	font-size: 12px;
+}
+.next {
+	color: #4b4b4b;
+	margin-left: auto;
+	margin-right: 2px;
+	font-size: 12px;
+}
+.calendar .date {
+	padding: 7px;
+	display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+.calendar .date .day,
+.calendar .date .number {
+	width: 21px;
+	height: 18px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+.calendar .date .day:first-child,
+.calendar .date .number:nth-child(7n+1) {
+	color: #cccccc;
+}
+.calendar .date .day:nth-child(7n),
+.calendar .date .number:nth-child(7n+7){
+    color: #cccccc;
+}
+
+.calendar .date .number.active{
+	background: #e5e5e5;
+	color: #4b4b4b;		 
+	border-radius: 100%;
+	border: 1px solid #cccccc;
+}
+.section3{
+	margin-left: 15px
+}
+.section3 form{
+	color: #7e7e7e; 
+}
+textarea {
+	width: 346px;
+	height: 90px;
+	border: 2px solid #3298da;
+	resize: none;
+}
+.button{
+	width: 80px;
+	height: 25px;
+}
+
+.submit {
+    width: 80px;
+	height: 25px;
+	background: #3673b6;
+	color: white;
+	text-align: center;
+    padding: 5px;
+	font-size: 12px;
+	margin: 0;
+}
+.article2{
+	margin-left: 80px;
+	margin-top: 40px;
+}
+
+.box select {
+	margin-left: 34px;
+}
+
